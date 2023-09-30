@@ -1,6 +1,6 @@
 # Bluetooth Audio Amplifier
 
-##Objective
+## Objective
 
 Combine the ESP32 Board with the MAX98357A module to assemble a Bluetooth speaker. See the demo video below.
 
@@ -24,7 +24,7 @@ The configuration of SD_MODE can be achieved either through Push Pull resistors 
 
 
 
-##Firmware Configuration
+## Firmware Configuration
 Developed using the Arduino IDE, we employed the ESP32-A2DP-main Library. The primary configurations are: Pin 22 set as BCLK, Pin 21 as LRCLK, Pin 23 as Data_output, and Pin 19 as AMP_SD_Pin. The Bluetooth device name for ESP32 has been changed to "WayneMusicBox".
 	
 	#include "BluetoothA2DPSinkQueued.h"
