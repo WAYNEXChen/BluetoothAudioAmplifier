@@ -6,7 +6,7 @@ Combine the ESP32 Board with the MAX98357A module to assemble a Bluetooth speake
 
 [![Watch the video](BluetoothAudioAmplifier.JPG)](https://github.com/WAYNEXChen/BluetoothAudioAmplifier/blob/master/Bluetooth%20Audio%20Amplifier.mp4)
 
-##Hardware Design
+## Hardware Design
 Connect according to the sections in the diagram below. The sections can be divided as follows:
 ![overview](bluetooth_audio_amplifier_circuit.png)
 ![overview1](Bluetooth%20Audio%20Amplifier%20circuit(top%20side).PNG)
