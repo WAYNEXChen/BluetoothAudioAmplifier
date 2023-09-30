@@ -1,16 +1,16 @@
-# Bluetooth Audio Box
+# Bluetooth Audio Amplifier
 
 ##Objective
 
-Combine the ESP32 Board with the MAX98357A module to assemble a Bluetooth speaker.
+Combine the ESP32 Board with the MAX98357A module to assemble a Bluetooth speaker. See the demo video below.
 
-![Watch the video](https://github.com/WAYNEXChen/BluetoothAudioAmplifier/blob/master/Bluetooth%20Audio%20Amplifier.mp4)
+[![Watch the video](BluetoothAudioAmplifier.JPG)](https://github.com/WAYNEXChen/BluetoothAudioAmplifier/blob/master/Bluetooth%20Audio%20Amplifier.mp4)
 
 ##Hardware Design
 Connect according to the sections in the diagram below. The sections can be divided as follows:
 ![overview](bluetooth_audio_amplifier_circuit.png)
-![overview1](Bluetooth Audio Amplifier circuit(top side).PNG)
-![overview2](Bluetooth Audio Amplifier circuit(Bottom side).PNG)
+![overview1](Bluetooth%20Audio%20Amplifier%20circuit(top%20side).PNG)
+![overview2](Bluetooth%20Audio%20Amplifier%20circuit(Bottom%20side).PNG)
 
 1.ESP32: There are many versions of ESP32. Here, we are using the NodeMCU-32S due to its affordable price, easy accessibility, and built-in Bluetooth functionality. We utilize PINs 21, 22, and 23 for I2S interface output.
 ![ESP32](/SPEC/ESP32/nodemcu_32s_pin.png)
